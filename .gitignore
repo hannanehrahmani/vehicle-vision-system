@@ -1,1 +1,66 @@
-.gitignore
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Streamlit
+.streamlit/
+.streamlit/logger.log
+
+# Models (اگر بزرگ باشند)
+models/*.pt
+!models/README.md
+
+# Data
+data/videos/*.mp4
+data/videos/*.avi
+data/videos/*.mov
+
+# Logs
+*.log
+logs/
+
+# Output
+output/
+results/
+temp/
+*.tmp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+*.cache
